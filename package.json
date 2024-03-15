@@ -1,0 +1,24 @@
+{
+  "name": "mikro-orm-v6",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "mikro:cache:generate": "mikro-orm cache:generate"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mikro-orm/cli": "^6.1.10",
+    "@mikro-orm/core": "^6.1.10",
+    "@mikro-orm/postgresql": "^6.1.10",
+    "@mikro-orm/reflection": "^6.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2"
+  },
+  "mikro-orm": {
+    "useTsNode": true,
+    "configPaths": [
+      "./src/mikroOrm.config.ts"
+    ]
+  }
+}
